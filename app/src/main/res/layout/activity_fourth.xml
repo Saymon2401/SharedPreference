@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".ThirdExersize.FourthActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asosiy oyna"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/listUser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ko'ntaktlar ro'yxati"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:paddingLeft="34dp"
+        android:elevation="8dp"
+        android:paddingRight="34dp"
+        android:translationZ="8dp"
+        android:layout_margin="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:id="@+id/addUser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ko'ntakt qo'shish"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:paddingLeft="38dp"
+        android:elevation="8dp"
+        android:paddingRight="38dp"
+        android:translationZ="8dp"
+        android:layout_margin="5dp"
+        app:layout_constraintTop_toBottomOf="@id/listUser_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
